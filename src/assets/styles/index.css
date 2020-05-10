@@ -1,0 +1,25 @@
+@tailwind base;
+
+@tailwind components;
+
+.btn {
+    @apply bg-gray-200 rounded m-2 px-2 py-1;
+}
+.btn:hover {
+    @apply bg-gray-300;
+}
+.input-group {
+    @apply my-3;
+}
+.label {
+    @apply mr-5;
+}
+.input {
+    @apply bg-gray-300 rounded px-2 py-1;
+}
+.input:focus {
+    @apply bg-white;
+}
+
+
+@tailwind utilities;
